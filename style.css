@@ -1,0 +1,70 @@
+/* Required: background color */
+body {
+  background: linear-gradient(180deg, #fff7fb 0%, #f3f6ff 55%, #f6fff8 100%);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Required: different heading color */
+.section-title,
+.hero h1 {
+  color: #3b2f6b;
+}
+
+/* Required: spacing */
+.section-head {
+  padding: 10px 0;
+}
+
+.hero {
+  background: radial-gradient(circle at top, rgba(255, 179, 214, 0.55), rgba(179, 201, 255, 0.45), rgba(200, 255, 230, 0.40));
+  border-bottom: 1px solid rgba(59, 47, 107, 0.10);
+}
+
+.hero-subtext {
+  color: rgba(59, 47, 107, 0.75);
+}
+
+.pastel-nav {
+  background: linear-gradient(90deg, #ffb3d6, #b3c9ff, #c8ffe6);
+}
+
+.pastel-nav .nav-link {
+  color: rgba(35, 25, 70, 0.85);
+}
+
+.pastel-nav .nav-link:hover {
+  color: rgba(35, 25, 70, 1);
+}
+
+.hobby-card {
+  border-radius: 18px;
+  border: 1px solid rgba(59, 47, 107, 0.12);
+  box-shadow: 0 10px 22px rgba(35, 25, 70, 0.08);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+}
+
+.hobby-img {
+  height: 190px;
+  object-fit: cover;
+}
+
+.section-subtitle {
+  color: rgba(59, 47, 107, 0.70);
+}
+
+.page-footer {
+  background: rgba(255, 255, 255, 0.65);
+  border-top: 1px solid rgba(59, 47, 107, 0.10);
+  color: rgba(59, 47, 107, 0.75);
+}
+
+.album-cover {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 2px solid rgba(59, 47, 107, 0.12);
+  box-shadow: 0 10px 20px rgba(35, 25, 70, 0.10);
+}
